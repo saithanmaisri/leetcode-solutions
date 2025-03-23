@@ -1,0 +1,13 @@
+class Solution(object):
+    def construct(self, grid):
+        root = Node(True, True, None, None, None, None)
+        if len(set([item for row in grid for item in row])) == 1:
+            root.val = bool(grid[0][0])
+        else:
+            root.isLeaf = False
+            size = len(grid)
+            root.topLeft = self.construct([row[:size//2] for row in grid[:size//2]])
+            root.topRight = self.construct([row[size//2:] for row in grid[:size//2]])
+            root.bottomLeft = self.construct([row[:size//2] for row in grid[size//2:]])
+            root.bottomRight = self.construct([row[size//2:] for row in grid[size//2:]])
+        return root
