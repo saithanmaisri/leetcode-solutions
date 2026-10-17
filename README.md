@@ -6,9 +6,8 @@ Welcome to my personal archive of LeetCode algorithmic problem solutions! This r
 
 ## 📊 Profile Statistics
 
-<p align="left">
-  <img src="https://vercel.app" alt="LeetCode Stats" />
-</p>
+![LeetCode Stats](https://jacoblin.cool)
+
 
 
 ## 📂 Repository Layout Structure
