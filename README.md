@@ -9,7 +9,6 @@ Welcome to my personal archive of LeetCode algorithmic problem solutions! This r
 ![LeetCode Stats](https://jacoblin.cool)
 
 
-
 ## 📂 Repository Layout Structure
 
 The workspace files are automatically organized using the following structure:
