@@ -4,9 +4,6 @@
 
 Welcome to my personal archive of LeetCode algorithmic problem solutions! This repository serves as a tracker for my data structures and algorithms practice, and it automatically syncs my accepted solutions directly from LeetCode.
 
-## 📊 Profile Statistics
-
-![LeetCode Stats](https://jacoblin.cool)
 
 
 ## 📂 Repository Layout Structure
